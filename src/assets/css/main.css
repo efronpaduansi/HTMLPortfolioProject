@@ -1,0 +1,119 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar span{
+    font-size: 1.4rem;
+    margin-left: 0.4em;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: yellow;
+}
+.container .navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .contact-btn{
+    background-color: salmon;
+    border: none;
+    border-radius: 30px;
+    margin-left: 3px;
+    width: max-content;
+}
+.jumbotron{
+    background-color: black;
+    height: 60vmax;
+    margin-top: -4.5em;
+    color: white;
+}
+.jumbotron .container img{
+    height: 250px;
+    width: 250px;
+    margin-top: 20em;
+    margin-left: 5em;
+}
+.jumbotron .container .row .jumbotron-heading{
+    margin-top: 20em;
+    font-weight: 400;
+}
+.jumbotron .container .row .jumbotron-heading span{
+    position: inline;
+}
+.jumbotron-heading .hello{
+    position: relative;
+    display: inline-block;
+    margin-left: 8em;
+}
+.jumbotron-heading .hello h3::before{
+    content: " ";
+	position: absolute;
+    border-bottom: 3px solid white;
+	width: 100px;
+	left: -130px;
+	top: 50%;
+}
+.jumbotron-heading .hello h3::after{
+    content: " ";
+	position: absolute;
+	border-bottom: 3px solid white;
+	width: 100px;
+	right: -130px;	
+	top: 50%;
+}
+.jumbotron-heading button{
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 3px;
+  background-color: yellow;
+}
+.jumbotron-heading button a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* About */
+#text-about{
+    margin-top: 10em;
+}
+/* My Coding */
+#coding{
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 30vmax;
+    color: black;
+    padding-top: 3em;
+}
+#coding hr{
+    border: 2px solid salmon;
+    width: 4em;
+}
+#coding .container .row .col-12{
+    margin-top: 2em;
+}
+/* FOOTER */
+#footer{
+    background-color: midnightblue;
+    color: white;
+    height: 40vmax;
+    padding-top: 3em;
+}
+#footer .container .row a{
+    color: white;
+    text-decoration: none;
+}
+#footer .container .row h3{
+    padding-bottom: 1em;
+}
+/* Responsive Styles */
+@media screen and (max-width: 992px){
+    .navbar {
+        background-color: whitesmoke;
+    }
+}
